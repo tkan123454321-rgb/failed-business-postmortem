@@ -78,9 +78,9 @@ Choosing the wrong product from the very beginning is exactly like drawing a fun
 
 Instead of zooming out to evaluate this broken blueprint, I fell into a classic builder's trap: I got completely lost in the details.
 
-I was deeply obsessed with the micro-level tasks—researching how to perfectly care for the plants, designing new terrarium layouts, and brainstorming unique concepts for product photos. I even sat down and watched a 10-hour tutorial on how to professionally edit videos on Adobe Premiere:)) 
+I was deeply obsessed with the micro-level tasks—researching how to perfectly care for the plants, designing new terrarium layouts, and brainstorming unique concepts for product photos. I even sat down and watched a 10-hour tutorial on how to professionally edit videos on Adobe Premiere:)) (editing videos can be done easily with Capcut) 
 
 I spent all my energy "over-engineering" the marketing and the aesthetics, completely forgetting to step back and look at the original architectural blueprint. I was polishing the windows of a house that was built on an unscalable foundation.
----
+
 
 
