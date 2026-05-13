@@ -9,8 +9,8 @@ Here, I will sit down and thoroughly dissect that failure. We will explore the r
 **To recruiters and future colleagues:** 
 I hope this report gives you a transparent look into my mindset, how I analyze problems, and how I learn from mistakes. I believe understanding how we think is the best foundation for working effectively together in the future.
 
-**To everyone else (especially if you are feeling lost in your career choices):** 
-I have been there. I hope the frameworks and lessons shared here can offer you some clarity, or at least a new perspective on how to choose your path. I wish you nothing but the best on your journey.
+**To everyone else:** 
+I have been there. I hope the failures and lessons shared here can offer you some clarity, or at least a new perspective on how to approach a problem. I wish you nothing but the best on your journey.
 
 Now, let's begin the story.
 
@@ -118,7 +118,7 @@ Did it solve the problem? Yes. Was it the optimal and most resource-efficient wa
 
 This is the most important lesson I learned from the two fatal bottlenecks of that physical business. If a system cannot adapt to high volume or handle unexpected errors, it will eventually break.
 
-I strictly applied this exact question to my current data project: the **[Quantamental Screener for Vietnam Stocks](Insert your Repo Link here)**. 
+I strictly applied this exact question to my current data project: the **[[Quantamental Screener for Vietnam Stocks](https://github.com/tkan123454321-rgb/VN_stocks_quantamental_screener)]**. 
 
 When building the data pipeline for this screener, I could have chosen the easy route: just write the scraping scripts, run them, and ignore system monitoring. However, remembering my past failures, I knew I had to build for future stability. 
 
