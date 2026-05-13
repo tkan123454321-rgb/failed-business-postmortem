@@ -82,5 +82,25 @@ I was deeply obsessed with the micro-level tasks—researching how to perfectly 
 
 I spent all my energy "over-engineering" the marketing and the aesthetics, completely forgetting to step back and look at the original architectural blueprint. I was polishing the windows of a house that was built on an unscalable foundation.
 
+## IV. The unanswered question & the decision framework
+
+Why did I choose the wrong product from day one? 
+
+To be completely honest, even a year after shutting down the business, I still don't have a perfect answer. The simple truth is: I lacked experience. I just didn't foresee all the possibilities, edge cases, and risks that could happen in reality.
+
+But I realized something important: As I continue to stumble and learn in my career, I will gradually build a mental checklist - a set of strict questions to ask myself before making any major decision or starting a new project. The more I experience, the thicker this checklist will become, helping me minimize risks right from the starting line.
+
+From the ruins of that failed business, I have my very first set of guiding principles. Now, before I commit to building anything, I force myself to ask:
+
+### Question 1: Does it actually solve a real problem for the "Customers"?
+
+In my mindset now, "everything is a product". And a product exists solely to solve a specific problem for a specific group of customers. 
+
+The "customers" aren't just someone paying for a product/service. Your customer could be your boss, your teammates, or even the recruiter reading this exact post. 
+*(Acutally, my technical skills and mindset are my "product". This article is a product designed to help recruiters understand how I think, thereby solving their problem of making a faster, better hiring decision).*
+
+Back then, I chose to sell terrariums simply because I thought they solved a basic problem: decorating a boring desk. 
+
+Today, I apply this exact same filter to my work. Whether I am asked to develop a new feature, build a data architecture, or design a new dashboard, the very first question that pops into my head is: *"Does this actually solve a real problem for my customers? If not, I don't build it."*
 
 
