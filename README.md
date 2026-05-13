@@ -30,6 +30,29 @@ From June to November 2024, things actually went pretty smoothly. We sold a dece
 
 *(Feel free to take a look at my old business page here: **[click here](https://www.facebook.com/cayrium?locale=vi_VN)**.)*
 
-But just when we thought about scaling up, reality hit hard. I realized our physical system was suffering from **two fatal, unfixable bottlenecks**. These weren't small software bugs we could just "patch" — they were fundamental architectural flaws in the physical pipeline itself. 
+But I realized that this physical system was suffering from **two fatal, unfixable bottlenecks**. These weren't small bugs we could just...fix — they were fundamental architectural flaws in the business pipeline itself. 
 
-That realization forced me to make a tough call: I pulled the plug, shut down the entire business in December 2024, and pivoted my life in a completely different direction. Here is exactly why.
+That realization forced me to make a tough decision: I stopped totally, shut down the entire business in December 2024, and pivoted my life in a completely different direction. 
+
+## II. The Architecture & The Bottlenecks: Why Physical Pipelines Break
+
+*(Note: [Insert your Excalidraw System Diagram here])*
+
+If we view this business as a data pipeline, the flow is straightforward: we ingest raw materials, process them into a final product, and deliver the payload to the customer. However, unlike a digital system, this physical pipeline had severe limitations. 
+
+When I deeply analyzed our operations, I found two fatal bottlenecks that made scaling impossible:
+
+### Bottleneck 1: The "Processing" Node (The Manual Labor Limit)
+In software engineering, if your server experiences a traffic spike, you can simply auto-scale horizontally by spinning up more instances. In my terrarium business, the "CPU" was my own two hands. 
+
+Crafting a highly detailed, aesthetic terrarium takes hours of intense focus. It is pure manual labor. The maximum output per day is strictly capped by human stamina. To scale this, I would have had to hire and train skilled artisans, which would drastically increase operational costs and introduce massive quality control issues. 
+
+Our production node was a **Single Point of Failure (SPOF)**. The effort-to-output ratio was strictly linear — there was absolutely no leverage.
+
+### Bottleneck 2: "Packet Loss" & Strict "Runtime Environments"
+Even if we magically solved the processing bottleneck, the delivery and maintenance phases were logistical nightmares.
+
+*   **High "Packet Loss" in Logistics:** We were shipping fragile glass jars filled with soil and delicate plants across provinces. No matter how well we packed them with bubble wrap, the third-party logistics network was out of our control. Jars broke. Soil flipped. In networking terms, our "packet loss" rate was unacceptably high, leading to dead stock and expensive refunds.
+*   **Strict "Runtime" Dependencies:** A terrarium is a living ecosystem. We essentially shipped a product that required a highly specific "runtime environment" to survive. It needs precise LED lighting and watering schedules. If a customer forgot to turn on the light (bad environment setup), the system crashed (the plants died). We couldn't control the end-user's environment, but we still took the blame and the financial hit when things failed.
+
+These physical constraints meant that no matter how hard we worked or how much money we pumped into marketing, the system was inherently unscalable. I realized that a business bound by physical limitations is a business with a hard ceiling.
