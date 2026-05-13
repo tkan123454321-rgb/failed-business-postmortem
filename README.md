@@ -30,7 +30,7 @@ From June to November 2024, things actually went pretty smoothly. We sold a dece
 
 *(Feel free to take a look at my old business page here: **[click here](https://www.facebook.com/cayrium?locale=vi_VN)**.)*
 
-But I realized that this physical system was suffering from **two fatal, unfixable bottlenecks**. These weren't small bugs we could just...fix — they were fundamental architectural flaws in the business pipeline itself. 
+But I realized that this physical system was suffering from **two fatal, unfixable bottlenecks**. These weren't small bugs we could just...fix, they were fundamental architectural flaws in the business pipeline itself. 
 
 That realization forced me to make a tough decision: I stopped totally, shut down the entire business in December 2024, and pivoted my life in a completely different direction. 
 
@@ -63,13 +63,24 @@ but it could have been scaled up by hiring more people. However, terrariums are 
 
 This is exactly like an data infrastructure unable to adapt or scale up when massive, high-volume data streams flow in.*
 
-#### Bottleneck #2: The logistics limit
+### Bottleneck #2: The logistics limit
 The second bottleneck was the inability to distribute the product to customers in other areas. 
 
 Because the internal layout of a terrarium (the layers of soil, moss, and tiny plants) is highly complex, normal long-distance shipping was out of the question. We were restricted to either safely self-delivering within our local area, or hiring specialized expensive—logistics services, which would slowly drain the business's revenue pool. 
 
 This is like building a data architecture that is physically constrained to only absorb a very specific data source, completely unable to expand its reach to broader data sources.*
 
+## III. The root cause: A flawed blueprint from day one
+
+When a system has two fatal, unfixable bottlenecks, the problem isn't just operational. If we dig down to the absolute root cause, this business failed because of one thing: the product choice itself.
+
+Choosing the wrong product from the very beginning is exactly like drawing a fundamentally flawed data architecture on day one. It doesn't matter how many shiny features you build on top of it, how many features you apply, or how beautifully you design it. If the core foundation is wrong, it cannot be fixed. The system will eventually fail.
+
+Instead of zooming out to evaluate this broken blueprint, I fell into a classic builder's trap: I got completely lost in the details.
+
+I was deeply obsessed with the micro-level tasks—researching how to perfectly care for the plants, designing new terrarium layouts, and brainstorming unique concepts for product photos. I even sat down and watched a 10-hour tutorial on how to professionally edit videos on Adobe Premiere:)) 
+
+I spent all my energy "over-engineering" the marketing and the aesthetics, completely forgetting to step back and look at the original architectural blueprint. I was polishing the windows of a house that was built on an unscalable foundation.
 ---
 
-These two physical constraints meant that no matter how hard we worked or how much money we pumped into marketing, the system was inherently unscalable. I realized that a business bound by physical limitations is a business with a hard ceiling.
+
