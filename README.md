@@ -54,17 +54,22 @@ Before we talk about why it failed, let's look at how this business operated on 
 On paper, it looked like a perfect, sustainable loop. But in reality, physical businesses don't run on paper.
 When I deeply analyzed this operations, I found two fatal bottlenecks that made scaling impossible:
 
-### Bottleneck 1: The "Processing" Node (The Manual Labor Limit)
-In software engineering, if your server experiences a traffic spike, you can simply auto-scale horizontally by spinning up more instances. In my terrarium business, the "CPU" was my own two hands. 
+### Bottleneck #1: the inability to automate or scale 
+The first bottleneck that completely choked our pipeline was the production process itself. 
 
-Crafting a highly detailed, aesthetic terrarium takes hours of intense focus. It is pure manual labor. The maximum output per day is strictly capped by human stamina. To scale this, I would have had to hire and train skilled artisans, which would drastically increase operational costs and introduce massive quality control issues. 
+Unlike a piece of software, which you build once and distribute to millions of users simultaneously or a car, which can be mass-produced using automated assembly lines, crafting a terrarium is 100% manual works. 
 
-Our production node was a **Single Point of Failure (SPOF)**. The effort-to-output ratio was strictly linear — there was absolutely no leverage.
+but it could have been scaled up by hiring more people. However, terrariums are a niche craft. It is difficult to find employees with the required patience, passion to sit down and make these products. 
 
-### Bottleneck 2: "Packet Loss" & Strict "Runtime Environments"
-Even if we magically solved the processing bottleneck, the delivery and maintenance phases were logistical nightmares.
+This is exactly like an data infrastructure unable to adapt or scale up when massive, high-volume data streams flow in.*
 
-*   **High "Packet Loss" in Logistics:** We were shipping fragile glass jars filled with soil and delicate plants across provinces. No matter how well we packed them with bubble wrap, the third-party logistics network was out of our control. Jars broke. Soil flipped. In networking terms, our "packet loss" rate was unacceptably high, leading to dead stock and expensive refunds.
-*   **Strict "Runtime" Dependencies:** A terrarium is a living ecosystem. We essentially shipped a product that required a highly specific "runtime environment" to survive. It needs precise LED lighting and watering schedules. If a customer forgot to turn on the light (bad environment setup), the system crashed (the plants died). We couldn't control the end-user's environment, but we still took the blame and the financial hit when things failed.
+#### Bottleneck #2: The logistics limit
+The second bottleneck was the inability to distribute the product to customers in other areas. 
 
-These physical constraints meant that no matter how hard we worked or how much money we pumped into marketing, the system was inherently unscalable. I realized that a business bound by physical limitations is a business with a hard ceiling.
+Because the internal layout of a terrarium (the layers of soil, moss, and tiny plants) is highly complex, normal long-distance shipping was out of the question. We were restricted to either safely self-delivering within our local area, or hiring specialized expensive—logistics services, which would slowly drain the business's revenue pool. 
+
+This is like building a data architecture that is physically constrained to only absorb a very specific data source, completely unable to expand its reach to broader data sources.*
+
+---
+
+These two physical constraints meant that no matter how hard we worked or how much money we pumped into marketing, the system was inherently unscalable. I realized that a business bound by physical limitations is a business with a hard ceiling.
