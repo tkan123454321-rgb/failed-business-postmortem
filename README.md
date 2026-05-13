@@ -36,11 +36,23 @@ That realization forced me to make a tough decision: I stopped totally, shut dow
 
 ## II. The Architecture & The Bottlenecks: Why Physical Pipelines Break
 
-*(Note: [Insert your Excalidraw System Diagram here])*
+<img width="1410" height="894" alt="Screenshot 2026-05-13 at 21 20 30" src="https://github.com/user-attachments/assets/5654e845-c511-489e-8eaa-335c4099cd4e" />
 
-If we view this business as a data pipeline, the flow is straightforward: we ingest raw materials, process them into a final product, and deliver the payload to the customer. However, unlike a digital system, this physical pipeline had severe limitations. 
+Before we talk about why it failed, let's look at how this business operated on a daily basis:
+*   **Making the Product:** 
+    It all started with our Cash pool. We took money out (`Cashflow out`) to buy raw materials like glass jars, moss, and soil. Then, through manual works — me sitting for hours crafting each jar by hand, we turned those materials into finished terrarium jars. 
 
-When I deeply analyzed our operations, I found two fatal bottlenecks that made scaling impossible:
+*   **Finding Customers (Marketing):**
+    At the same time, we poured cash and effort into the Marketing engine. We took photos, wrote content, and ran campaigns across Instagram, Facebook, and Threads. 
+
+*   **Shipping (Logistics):**
+    Once a product was finished and a customer placed an order, we used motorbikes for local orders, and third-party delivery services for long-distance orders.
+
+*   **The Cashflow Loop:**
+    If everything went perfectly, the customer received their terrarium safely, and the money they paid (`Cashflow in`) circled right back into our Cash pool. This allowed us to buy more materials, run more ads, and keep the whole system running.
+
+On paper, it looked like a perfect, sustainable loop. But in reality, physical businesses don't run on paper.
+When I deeply analyzed this operations, I found two fatal bottlenecks that made scaling impossible:
 
 ### Bottleneck 1: The "Processing" Node (The Manual Labor Limit)
 In software engineering, if your server experiences a traffic spike, you can simply auto-scale horizontally by spinning up more instances. In my terrarium business, the "CPU" was my own two hands. 
