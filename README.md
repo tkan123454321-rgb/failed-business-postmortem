@@ -103,4 +103,24 @@ Back then, I chose to sell terrariums simply because I thought they solved a bas
 
 Today, I apply this exact same filter to my work. Whether I am asked to develop a new feature, build a data architecture, or design a new dashboard, the very first question that pops into my head is: *"Does this actually solve a real problem for my customers? If not, I don't build it."*
 
+### Question 2: If it solves the problem, is it the simplest, most cost-effective, and optimal way to do it?
+
+This is my foundational rule to avoid the trap of Over-engineering — a trap I fell deeply into during my business days.
+
+Back then, I faced a basic problem: *How do I make my products look attractive on social media?* 
+The simplest, most cost-effective solution would have been to use a regular phone and edit with free, intuitive apps like CapCut or Lightroom. 
+
+What did I do instead? I went out and bought an iPhone 15 Pro just so I could shoot in Apple ProRAW format. Then, I spent a whole weekend watching a 10-hour tutorial by some random guy on the internet just to learn how to color-grade on Adobe Premiere. 
+
+Did it solve the problem? Yes. Was it the optimal and most resource-efficient way? Absolutely not. I wasted massive amounts of time and capital on a tool that was way too complex for the problem at hand. Today, whenever I design a feature, I always ask this question to ensure I am using the right tool for the job.
+
+### Question 3: Is this solution scalable, adaptable, and stable for the future?
+
+This is the most important lesson I learned from the two fatal bottlenecks of that physical business. If a system cannot adapt to high volume or handle unexpected errors, it will eventually break.
+
+I strictly applied this exact question to my current data project: the **[Quantamental Screener for Vietnam Stocks](Insert your Repo Link here)**. 
+
+When building the data pipeline for this screener, I could have chosen the easy route: just write the scraping scripts, run them, and ignore system monitoring. However, remembering my past failures, I knew I had to build for future stability. 
+
+That is why I decided to set up a complete Observability stack using Vector, Loki, and Grafana to track logs and monitor the entire system's health. I knew that as the data volume scaled up and inevitable errors occurred, without a proper tracking architecture, debugging would be really frustrating. I will not  be able to identify those bottlenecks quickly. By answering Question 3, I ensured my data infrastructure wouldn't hit a hard ceiling like my terrarium business did.
 
