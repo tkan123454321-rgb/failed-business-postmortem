@@ -1,4 +1,4 @@
-# A root-cause analysis of a failed physical product through a systems lens: How hitting physical bottlenecks led to the revelation of the "5-Circle Ikigai" philosophy that redefined my path
+# # A Root-Cause Analysis of a Failed Physical Product Through a Systems Lens: How Hitting Bottlenecks Shaped My 3-Question Engineering Framework
 
 ### A quick message before we begin
 
